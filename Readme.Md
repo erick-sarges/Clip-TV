@@ -1,14 +1,14 @@
 ><h1>Clipe-Tv</h1>
 
-![](./images/img-projeto.png)
+![](./img-Projeto/projeto.png)
 
 
 
 <h2 align="center">
-  Acesse o Clipe-Tv Clicando <a target="_blank" href="https://erick-sarges.github.io/I-Tube/">AQUI</a>!
+  Acesse o Clipe-Tv Clicando <a target="_blank" href="https://erick-sarges.github.io/Clip-TV/">AQUI</a>!
 </h2>
 
-![](./Images/projeto.png)
+
 
 
 
