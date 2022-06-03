@@ -75,15 +75,29 @@ ul{
     list-style:square;
     list-style-position: inside;
     margin-top: 20px;
-    position: sticky;
-    top: 140px;
+    transform: translate(-70px,-60px);
     
     
     
 }
 
+
+
 h3{
     margin-bottom: 10px;
+}
+
+h3::selection{
+
+    text-shadow: -1px -1px white;
+    color: #4169E1bb;
+}
+
+li::selection{
+    text-shadow: -1px -1px white;
+    color: #4169E1bb;
+
+
 }
 
 
@@ -93,7 +107,7 @@ video{
     border-radius: 10px;
     position: absolute;
     z-index: 2;
-    transform: translate(-217px, 113px);
+    transform: translate(-217px, 8px);
     z-index: 3;
     box-shadow: 0px 0px 1000px black;
     
@@ -102,7 +116,7 @@ video{
 .tv{
     width:80%;
     margin: auto;
-    transform: translatey(200px);
+    transform: translatey(100px);
     position: relative;
     z-index: 2;
     background-image: url(../Images/sombras.jpg);
@@ -110,7 +124,6 @@ video{
     background-position: center;
     padding: 50px;
     height: 400px;
-    box-shadow: 0px 0px 400px black;
     border-radius: 20px;
     box-sizing: border-box;
     
@@ -123,16 +136,30 @@ video{
 
     width: 500px;
     transform: translatey(-310px);
+    
 
-    
-    
     
 }
 
 footer{
-     background-color:#4169E1bb ;
-     margin-top: 100px;
-     height: 100px;
+     background-color:#4169E1bb;
+     transform: translatey(400px);
+     height: 50px;
+     text-align: center;
+}
+
+span{
+    position: absolute;
+    transform: translate(-200px, 30px);
+    font-size: 15px;
+    color: white;
+    
+}
+
+span::selection{
+
+    text-shadow: -1px 1px white;
+    color: black;
 }
 
 
